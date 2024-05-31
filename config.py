@@ -13,7 +13,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1480923991"))
 #Port
 PORT = os.environ.get("PORT", "8880")
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://admt:admt@cluster0.t4heqoo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster>")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://test:test@cluster0.q9llhnj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #Shortner (token system)
 SHORTLINtK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
@@ -25,7 +25,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/Media_Adholokam/6")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴛᴏᴋᴇɴ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘ>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴛᴏᴋᴇɴ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1480923991 5877164701 5069922547").split()):
