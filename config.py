@@ -7,7 +7,7 @@ APP_ID = int(os.environ.get("APP_ID", "1040456"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "ed1edeaedb17b440dbb29b91ae757270")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002194489307"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002023444138"))
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1480923991"))
 #Port
@@ -22,8 +22,8 @@ VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 28800)) # Add time in second
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Media_Adholokam/6")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "8"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002059227798"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴛᴏᴋᴇɴ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ")
 try:
